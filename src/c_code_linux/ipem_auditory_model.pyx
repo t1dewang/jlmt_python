@@ -3,7 +3,7 @@
 # cython: language_level=3
 
 cdef extern from "IPEMAuditoryModel.h":
-    int IPEMAuditoryModel_Setup(
+    void IPEMAuditoryModel_Setup(
         long inNumOfChannels,
         double inFirstFreq,
         double inFreqDist,

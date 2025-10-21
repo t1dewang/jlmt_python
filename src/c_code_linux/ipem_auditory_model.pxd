@@ -1,7 +1,7 @@
 # ipem_auditory_model.pxd
 
 cdef extern from "IPEMAuditoryModel.h":
-    int IPEMAuditoryModel_Setup(
+    void IPEMAuditoryModel_Setup(
         long inNumOfChannels,
         double inFirstFreq,
         double inFreqDist,
