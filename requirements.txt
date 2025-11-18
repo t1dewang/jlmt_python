@@ -1,0 +1,19 @@
+# Numerical computing
+numpy
+
+# Data analysis and DataFrame operations
+pandas
+
+# Plotting and visualization
+matplotlib
+
+# Audio processing and feature extraction
+librosa
+soundfile
+scipy
+
+# Excel file read/write support
+openpyxl
+
+# Image/video processing (headless for servers)
+opencv-python-headless
